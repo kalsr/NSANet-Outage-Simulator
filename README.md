@@ -1,0 +1,1 @@
+The ClassiNet Outage Simulator, developed by Randy Singh of Kalsnet Consulting Group, is a training and analysis application that simulates outages on a large, segmented, high security enterprise network modeled loosely on a classified environment
