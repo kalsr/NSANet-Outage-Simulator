@@ -1,0 +1,114 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic-AI Applications | Kalsnet</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            color: #00e6ff;
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            font-size: 18px;
+            color: #cceeff;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 30px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.08);
+            border-radius: 15px;
+            padding: 20px;
+            transition: 0.3s ease;
+            box-shadow: 0 4px 25px rgba(0,0,0,0.4);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            background: rgba(0,230,255,0.15);
+        }
+
+        .card h3 {
+            color: #00ffff;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #d9faff;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+            background: #00e6ff;
+            color: black;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #00bcd4;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>NSANet-Outage-Simulator</h1>
+    <p class="subtitle">Kalsnet (KNet) Consulting Group | AI • Cyber • Agentic Systems/GraphTheory</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h3>NSANet-Outage-Simulator</h3>
+        <p> NSANet-Outage-Simulator
+
+Explanation: 
+
+The ClassiNet Outage Simulator, developed by Randy Singh of Kalsnet Consulting Group, is a training and analysis application that simulates outages on a large, segmented, high security enterprise network modeled loosely on a classified environment, using only fictional data or incident files that users upload themselves. It models a network of ten invented sites, including a core headquarters, two data centers, two encryption gateways that each protect a secure enclave, and three remote sites. It generates a realistic incident history across eight common outage types: fiber cuts, routing instability, DNS and directory failures, encryption gateway key expiry, certificate expiry, power and cooling failures, misconfiguration errors, and traffic congestion. For every incident it calculates time to detect, time to restore, outage duration, user minutes lost, site availability against a service level target, mean time between failures, error budget consumed, estimated cost, and a weighted severity score that blends users affected, duration, packet loss, and site criticality. A topology and what if simulator lets users fail any site or link, then runs a graph search to show which sites are cut off from the core, how many users are affected, and how backup links would change the result. It also ranks single points of failure, shows synthetic latency, packet loss and utilization trends, explains each outage case with a cause to fix diagram and a response playbook, and exports results as PDF, Word, text, and CSV reports. The application is written in Python and built with Streamlit for the web interface, Pandas and NumPy for data processing, Plotly and Matplotlib for charts, NetworkX for network graph analysis, Graphviz for diagrams, python docx for Word reports, and ReportLab for PDF reports. In practice it helps network operations teams and managers train staff on outage response without touching sensitive systems. It finds weak points in a network design before they cause real outages, makes the business case for redundancy and better monitoring with clear numbers, shows which root causes to fix first, and turns raw incident logs into professional reports for briefings and service level reviews.  </p>
+        <a href="https://2rktjmhecpxfjgsuzyrsqc.streamlit.app/" target="_blank" class="btn">Launch App</a>
+    </div>
+    
+    
+
+<footer>
+    © 2026 Kalsnet (KNet) Consulting Group | Agentic-AI Solutions
+</footer>
+
+</body>
+</html>
